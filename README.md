@@ -4,13 +4,19 @@
 
 Inspired by [containertutorials.com](http://containertutorials.com/docker-compose/flask-simple-app.html)
 
-## Build the Docker Image
+## Usage
+
+`curl localhost:5000` => **Hello, World**
+
+## Setup
+
+### Build the Docker Image
 
 ```
 docker build -t flask-docker .
 ```
 
-## Run the Docker Container
+### Run the Docker Container
 
 ```
 docker run -d -p 5000:5000 flask-docker
